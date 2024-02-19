@@ -10,13 +10,13 @@ const rpc = require("discordrpcgenerator");
 
 
 
-let NAME = "Name"
-let DETAILS = "Details"
+let NAME = "mb!help | musicbot.free.nf"
+let DETAILS = "Robloxbot Inc."
 let STATE = "State"
-let URL = ""
-let APPID = ""
+let URL = "https://twitch.tv/developer"
+let APPID = "1208836700571308124"
 let LARGEIMG = "Id Img"
-let LARGETEXT = "Large Text"
+let LARGETEXT = "mb!help | musicbot.free.nf"
 let SMALLIMG = "Id Img"
 let SMALLTEXT = "Id Img"
 
@@ -51,7 +51,7 @@ rpc.getRpcImage
         
 
           
-           client.user.setStatus("dnd");
+           client.user.setStatus("online");
       
      console.log(presence.toDiscord())
         
